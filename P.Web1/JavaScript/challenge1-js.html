@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript 1</title>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            table,tr,th,td {
+                width: 30%;
+                border: solid black;
+                border-collapse: collapse;
+                text-align: left;
+            }
+            th,td {
+                padding: 10px;
+            }
+            th {
+                background-color: #59ddd5;
+            }
+            tr:nth-child(even){
+                background-color: #59ddd5
+            }
+            tr:hover {
+                background-color: greenyellow;
+                font-weight: 120%;
+                font-weight: bolder;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>JavaScript Arithmetic</h1>
+
+        <table border="1">
+            <tr>
+              <th>Variabel</th>
+              <th>Nilai</th>
+            </tr>
+            <tr>
+              <td>a</td>
+              <td id="satu">5</td>
+            </tr>
+            <tr>
+              <td>b</td>
+              <td id="dua">2</td>
+            </tr>
+            <tr>
+              <td>c</td>
+              <td id="tiga">1</td>
+            </tr>
+            <tr>
+              <td>Hasil</td>
+              <td id="hasil" onmouseover="tampil()" onmouseleave="leave()"></td>
+            </tr>
+            </table>
+
+            <script>
+                function tampil(){
+                let nilai1 = parseInt(document.getElementById("satu").innerHTML);
+                let nilai2 = parseInt(document.getElementById("dua").innerHTML);
+                let nilai3 = parseInt(document.getElementById("tiga").innerHTML);
+
+                let hasil = hitung(nilai1, nilai2, nilai3);
+
+                document.getElementById("hasil").innerHTML = hasil;
+                }
+
+                function hitung(nilai1,nilai2,nilai3) {
+                    return nilai1 + nilai2 - nilai3;
+                }
+
+                function leave(){
+                    document.getElementById("hasil").innerHTML = "";
+                }
+            </script>
+            </center>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS 2</title>
+        <style>
+            h1 {
+                color: rgb(87, 87, 218);
+            }
+            table {
+                width: 50%;
+                border-collapse: collapse;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            th {
+                text-align: left;
+                color: white;
+                background-color:rgb(87, 87, 218) ;
+            }
+            tr:hover {
+                background-color: greenyellow;
+                font-weight: 120%;
+                font-weight: bolder;
+            }
+            tr:nth-child(even){background-color: #59ddd5}
+            tr:nth-child(even):hover{
+                background-color: greenyellow;
+                font-weight: 120%;
+                font-weight: bolder;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>Daftar Mahasiswa</h1>
+
+        <table border="1">
+            <tr>
+              <th>Nama</th>
+              <th>Program Studi</th>
+              <th>Kelas</th>
+            </tr>
+            <tr>
+              <td>John Doe</td>
+              <td>Teknik Informatika</td>
+              <td>A-01</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>Sistem Informasi</td>
+              <td>B-02</td>
+            </tr>
+            <tr>
+              <td>Alice Johnson</td>
+              <td>Teknik Komputer</td>
+              <td>A-03</td>
+            </tr>
+            <tr>
+              <td>Bob Brown</td>
+              <td>Teknik Elektro</td>
+              <td>C-01</td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>Manajemen Informatika</td>
+                <td>D-02</td>
+              </tr>
+          </table>
+        </center>
+    </body>
+</html>
