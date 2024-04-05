@@ -8,7 +8,7 @@ h1 mendefinisikan judul yang paling penting. h6 mendefinisikan judul yang paling
 ![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/bcb0c754-074b-4a5b-869a-038779c4bafd)<br><br><br>
 
    b. Paragraphs<br>
-   Paragraphs selalu dimulai pada baris baru, dan biasanya berupa blok teks. Elemen HTML p mendefinisikan paragraf. Sebuah paragraf selalu dimulai pada baris baru, dan browser secara otomatis menambahkan spasi (margin) sebelum dan sesudah paragraf.
+   Paragraphs selalu dimulai pada baris baru, dan biasanya berupa blok teks. Elemen HTML p mendefinisikan paragraf. Sebuah paragraf selalu dimulai pada baris baru, dan browser secara otomatis menambahkan spasi (margin) sebelum dan sesudah paragraf.<br>
 ![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/0f69499f-372e-4a5b-8f40-83b477bf51e0)<br><br><br>
 
    c. Lists <br>
@@ -48,15 +48,29 @@ Box Model CSS pada dasarnya adalah sebuah kotak yang membungkus setiap elemen HT
    Memilih font yang tepat memiliki dampak besar pada pengalaman pembaca terhadap situs web. Font yang tepat dapat menciptakan identitas yang kuat untuk brand Anda. Menggunakan font yang mudah dibaca itu penting. Font menambah nilai pada teks Anda. Penting juga untuk memilih warna dan ukuran teks yang tepat untuk font.
 ![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/b432ed02-2f2d-4a56-8b53-4269b73e649c) <br><br><br>
 
+3. Javascript <br>
+   JavaScript adalah bahasa pemrograman yang digunakan untuk pengembangan website agar lebih dinamis. Ibarat kata, JavaScript memberikan “kehidupan” dalam website sehingga terciptanya interaksi antara pengunjung dengan situs tersebut. Saya akan menampilkan beberapa contoh dari penggunaan Javascript yang sering digunakan dalam dunia pemrograman.<br><br>
 
+   a. Function <br>
+   Function adalah blok kode yang dirancang untuk melakukan tugas tertentu. Function dijalankan ketika "sesuatu" memanggilnya. Function didefinisikan dengan keyword function lalu diikuti dengan nama function dan tanda kurung ().
+![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/f483e812-ec74-49b7-81a5-9d077a02dfa4)<br><br><br>
 
+   b. Aritmatika JavaScript <br>
+   Operator aritmatika melakukan aritmatika pada bilangan (literal atau variabel).
+![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/f5aa07ff-076a-4390-86f0-75bf3188c993) <br><br><br>
 
+   c. Events <br>
+   Events dalam HTML adalah "hal" yang terjadi pada elemen HTML. Ketika JavaScript digunakan di halaman HTML, JavaScript dapat "bereaksi" terhadap events ini.<br>
+   Seringkali, ketika suatu event terjadi, Anda mungkin ingin melakukan sesuatu. JavaScript memungkinkan Anda mengeksekusi kode ketika event terdeteksi. HTML memungkinkan atribut event handler, dengan kode JavaScript , untuk ditambahkan ke elemen HTML.<br>
+![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/cea5c16d-9260-433a-8e7d-0a60e0ec8d43)<br><br><br>
 
+   d. Array <br>
+   Array adalah variabel khusus yang dapat menampung lebih dari satu nilai. Ada 2 cara penulisan array pada JavaScript, yaitu menggunakan kurung siku [ ] dan menggunakan keyword new Array().<br>
+![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/17b338f5-c3db-42d2-b1f8-6e7664b5e9dd)<br><br><br>
 
+   e. Alert <br>
+   Metode alert() ini menampilkan kotak peringatan dengan pesan dan tombol OK. Metode alert() digunakan ketika Anda ingin informasi sampai ke pengguna.<br>
+![image](https://github.com/shirooo007/Praktikum-Web-1/assets/151714938/7ae01e78-9c11-44a7-98bf-33a99acefb3a) <br><br><hr>
 
-
+Demikian Laporan Tugas 2 Praktikum WEB 1 yang diampu oleh Bapak Prih Diantono Abda’u, S.Kom., M.Kom., Semoga bermanfaat untuk para pembaca. Terima Kasih
    
-
-
-
-
